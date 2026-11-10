@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/RMX3081
 
 PRODUCT_COPY_FILES += \
+    vendor/realme/RMX3081/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
     vendor/realme/RMX3081/proprietary/odm/lib/camera/com.qti.sensor.gc02m1_20711.so:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensor.gc02m1_20711.so \
     vendor/realme/RMX3081/proprietary/odm/lib/camera/com.qti.sensor.gc02m1b_20711.so:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensor.gc02m1b_20711.so \
     vendor/realme/RMX3081/proprietary/odm/lib/camera/com.qti.sensor.hi846_20711.so:$(TARGET_COPY_OUT_ODM)/lib/camera/com.qti.sensor.hi846_20711.so \

@@ -1,3 +1,4 @@
+odm/etc/camera/CameraHWConfiguration.config
 odm/lib/camera/com.qti.sensor.gc02m1_20711.so
 odm/lib/camera/com.qti.sensor.gc02m1b_20711.so
 odm/lib/camera/com.qti.sensor.hi846_20711.so
